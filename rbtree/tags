@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	e	enum:rbtree_node_color
+CC	makefile	/^CC=gcc$/;"	m
+RED	rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	e	enum:rbtree_node_color
+Target	makefile	/^Target=$(basename $(firstword $(src) ) )$/;"	m
+color	rbtree.h	/^    enum rbtree_node_color color;$/;"	m	struct:rbtree_node_t	typeref:enum:rbtree_node_t::rbtree_node_color	access:public
+color	rbtree.h	/^typedef enum rbtree_node_color color;$/;"	t	typeref:enum:rbtree_node_color
+compare_func	rbtree.h	/^typedef int (*compare_func)(void* left, void* right);$/;"	t
+compare_int	main.c	/^int compare_int(void* leftp, void* rightp) {$/;"	f	signature:(void* leftp, void* rightp)
+compare_int	main.c	/^static int compare_int(void* left, void* right);$/;"	p	file:	signature:(void* left, void* right)
+delete_case1	rbtree.c	/^void delete_case1(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case1	rbtree.h	/^static void delete_case1(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+delete_case2	rbtree.c	/^void delete_case2(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case2	rbtree.h	/^static void delete_case2(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+delete_case3	rbtree.c	/^void delete_case3(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case3	rbtree.h	/^static void delete_case3(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+delete_case4	rbtree.c	/^void delete_case4(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case4	rbtree.h	/^static void delete_case4(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+delete_case5	rbtree.c	/^void delete_case5(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case5	rbtree.h	/^static void delete_case5(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+delete_case6	rbtree.c	/^void delete_case6(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+delete_case6	rbtree.h	/^static void delete_case6(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+grandparent	rbtree.c	/^node grandparent(node n) {$/;"	f	signature:(node n)
+grandparent	rbtree.h	/^static node grandparent(node n);$/;"	p	signature:(node n)
+inorder	main.c	/^inorder(struct rbtree_node_t *ptr)$/;"	f	signature:(struct rbtree_node_t *ptr)
+insert_case1	rbtree.c	/^void insert_case1(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+insert_case1	rbtree.h	/^static void insert_case1(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+insert_case2	rbtree.c	/^void insert_case2(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+insert_case2	rbtree.h	/^static void insert_case2(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+insert_case3	rbtree.c	/^void insert_case3(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+insert_case3	rbtree.h	/^static void insert_case3(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+insert_case4	rbtree.c	/^void insert_case4(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+insert_case4	rbtree.h	/^static void insert_case4(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+insert_case5	rbtree.c	/^void insert_case5(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+insert_case5	rbtree.h	/^static void insert_case5(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+key	rbtree.h	/^    void* key;$/;"	m	struct:rbtree_node_t	access:public
+left	rbtree.h	/^    struct rbtree_node_t* left;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+lookup_node	rbtree.c	/^node lookup_node(rbtree t, void* key, compare_func compare) {$/;"	f	signature:(rbtree t, void* key, compare_func compare)
+lookup_node	rbtree.h	/^static node lookup_node(rbtree t, void* key, compare_func compare);$/;"	p	signature:(rbtree t, void* key, compare_func compare)
+main	main.c	/^main()$/;"	f
+maximum_node	rbtree.c	/^static node maximum_node(node n) {$/;"	f	file:	signature:(node n)
+maximum_node	rbtree.h	/^static node maximum_node(node root);$/;"	p	signature:(node root)
+new_node	rbtree.c	/^node new_node(void* key , color node_color, node left, node right) {$/;"	f	signature:(void* key , color node_color, node left, node right)
+new_node	rbtree.h	/^static node new_node(void* key, color node_color, node left, node right);$/;"	p	signature:(void* key, color node_color, node left, node right)
+node	rbtree.h	/^typedef rbtree_node node;$/;"	t
+node_color	rbtree.c	/^color node_color(node n) {$/;"	f	signature:(node n)
+node_color	rbtree.h	/^static color node_color(node n);$/;"	p	signature:(node n)
+parent	rbtree.h	/^    struct rbtree_node_t* parent;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+postorder	main.c	/^postorder(struct rbtree_node_t *ptr)$/;"	f	signature:(struct rbtree_node_t *ptr)
+preorder	main.c	/^preorder(struct rbtree_node_t *ptr)$/;"	f	signature:(struct rbtree_node_t *ptr)
+print_tree	main.c	/^static void print_tree(rbtree t);$/;"	p	file:	signature:(rbtree t)
+print_tree	main.c	/^void print_tree(rbtree t) {$/;"	f	signature:(rbtree t)
+print_tree_helper	main.c	/^static void print_tree_helper(rbtree_node n, int step);$/;"	p	file:	signature:(rbtree_node n, int step)
+print_tree_helper	main.c	/^void print_tree_helper(rbtree_node n, int step) {$/;"	f	signature:(rbtree_node n, int step)
+print_tree_helper	main.c	/^void print_tree_helper(rbtree_node n, int step);$/;"	p	file:	signature:(rbtree_node n, int step)
+property_1	rbtree.c	/^void property_1(node n) {$/;"	f	signature:(node n)
+property_1	rbtree.h	/^static void property_1(node root);$/;"	p	signature:(node root)
+property_2	rbtree.c	/^void property_2(node root) {$/;"	f	signature:(node root)
+property_2	rbtree.h	/^static void property_2(node root);$/;"	p	signature:(node root)
+property_4	rbtree.c	/^void property_4(node n) {$/;"	f	signature:(node n)
+property_4	rbtree.h	/^static void property_4(node root);$/;"	p	signature:(node root)
+property_5	rbtree.c	/^void property_5(node root) {$/;"	f	signature:(node root)
+property_5	rbtree.h	/^static void property_5(node root);$/;"	p	signature:(node root)
+property_5_helper	rbtree.c	/^void property_5_helper(node n, int black_count, int* path_black_count) {$/;"	f	signature:(node n, int black_count, int* path_black_count)
+property_5_helper	rbtree.h	/^static void property_5_helper(node n, int black_count, int* black_count_path);$/;"	p	signature:(node n, int black_count, int* black_count_path)
+rbtree	rbtree.h	/^} *rbtree;$/;"	t	typeref:struct:rbtree_t
+rbtree_create	rbtree.c	/^rbtree rbtree_create() {$/;"	f
+rbtree_create	rbtree.h	/^rbtree rbtree_create();$/;"	p	signature:()
+rbtree_delete	rbtree.c	/^void rbtree_delete(rbtree t, void* key, compare_func compare) {$/;"	f	signature:(rbtree t, void* key, compare_func compare)
+rbtree_delete	rbtree.h	/^void rbtree_delete(rbtree t, void* key, compare_func compare);$/;"	p	signature:(rbtree t, void* key, compare_func compare)
+rbtree_insert	rbtree.c	/^void rbtree_insert(rbtree t, void* key, compare_func compare) {$/;"	f	signature:(rbtree t, void* key, compare_func compare)
+rbtree_insert	rbtree.h	/^void rbtree_insert(rbtree t, void* key, compare_func compare);$/;"	p	signature:(rbtree t, void* key, compare_func compare)
+rbtree_lookup	rbtree.c	/^void* rbtree_lookup(rbtree t, void* key, compare_func compare) {$/;"	f	signature:(rbtree t, void* key, compare_func compare)
+rbtree_lookup	rbtree.h	/^void* rbtree_lookup(rbtree t, void* key, compare_func compare);$/;"	p	signature:(rbtree t, void* key, compare_func compare)
+rbtree_node	rbtree.h	/^} *rbtree_node;$/;"	t	typeref:struct:rbtree_node_t
+rbtree_node_color	rbtree.h	/^enum rbtree_node_color { RED, BLACK };$/;"	g
+rbtree_node_t	rbtree.h	/^typedef struct rbtree_node_t {$/;"	s
+rbtree_node_t::color	rbtree.h	/^    enum rbtree_node_color color;$/;"	m	struct:rbtree_node_t	typeref:enum:rbtree_node_t::rbtree_node_color	access:public
+rbtree_node_t::key	rbtree.h	/^    void* key;$/;"	m	struct:rbtree_node_t	access:public
+rbtree_node_t::left	rbtree.h	/^    struct rbtree_node_t* left;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+rbtree_node_t::parent	rbtree.h	/^    struct rbtree_node_t* parent;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+rbtree_node_t::right	rbtree.h	/^    struct rbtree_node_t* right;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+rbtree_t	rbtree.h	/^typedef struct rbtree_t {$/;"	s
+rbtree_t::root	rbtree.h	/^    rbtree_node root;$/;"	m	struct:rbtree_t	access:public
+replace_node	rbtree.c	/^void replace_node(rbtree t, node oldn, node newn) {$/;"	f	signature:(rbtree t, node oldn, node newn)
+replace_node	rbtree.h	/^static void replace_node(rbtree t, node oldn, node newn);$/;"	p	signature:(rbtree t, node oldn, node newn)
+right	rbtree.h	/^    struct rbtree_node_t* right;$/;"	m	struct:rbtree_node_t	typeref:struct:rbtree_node_t::rbtree_node_t	access:public
+root	rbtree.h	/^    rbtree_node root;$/;"	m	struct:rbtree_t	access:public
+rotate_left	rbtree.c	/^void rotate_left(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+rotate_left	rbtree.h	/^static void rotate_left(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+rotate_right	rbtree.c	/^void rotate_right(rbtree t, node n) {$/;"	f	signature:(rbtree t, node n)
+rotate_right	rbtree.h	/^static void rotate_right(rbtree t, node n);$/;"	p	signature:(rbtree t, node n)
+sibling	rbtree.c	/^node sibling(node n) {$/;"	f	signature:(node n)
+sibling	rbtree.h	/^static node sibling(node n);$/;"	p	signature:(node n)
+src	makefile	/^src=$(wildcard *.c)$/;"	m
+stepspace	main.c	5;"	d	file:
+uncle	rbtree.c	/^node uncle(node n) {$/;"	f	signature:(node n)
+uncle	rbtree.h	/^static node uncle(node n);$/;"	p	signature:(node n)
+verify_properties	rbtree.c	/^void verify_properties(rbtree t) {$/;"	f	signature:(rbtree t)
+verify_properties	rbtree.h	/^static void verify_properties(rbtree t);$/;"	p	signature:(rbtree t)

@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	graph.h	/^    BLACK$/;"	e	enum:vcolor
+CC	makefile	/^CC=gcc$/;"	m
+GRAY	graph.h	/^    GRAY,$/;"	e	enum:vcolor
+LOG	graph.c	13;"	d	file:
+LOGE	graph.c	14;"	d	file:
+Matrix	graph.h	/^}*Matrix;$/;"	t	typeref:struct:_Matrix
+Target	makefile	/^Target=$(basename $(firstword $(src) ) )$/;"	m
+WHITE	graph.h	/^    WHITE = 1,$/;"	e	enum:vcolor
+_GRAPH_H	graph.h	9;"	d
+_Matrix	graph.h	/^typedef struct _Matrix{$/;"	s
+_Matrix::height	graph.h	/^    int height;$/;"	m	struct:_Matrix	access:public
+_Matrix::vec	graph.h	/^    int ** vec;$/;"	m	struct:_Matrix	access:public
+_Matrix::width	graph.h	/^    int width;$/;"	m	struct:_Matrix	access:public
+_gedge	graph.h	/^typedef struct _gedge{$/;"	s
+_gedge::next	graph.h	/^    struct _gedge * next;$/;"	m	struct:_gedge	typeref:struct:_gedge::_gedge	access:public
+_gedge::weight	graph.h	/^    int weight;$/;"	m	struct:_gedge	access:public
+_graph	graph.h	/^typedef struct _graph{$/;"	s
+_graph::gsize	graph.h	/^    int gsize;$/;"	m	struct:_graph	access:public
+_graph::vlist	graph.h	/^    gvetex vlist; $/;"	m	struct:_graph	access:public
+_gvertex	graph.h	/^typedef struct _gvertex{$/;"	s
+_gvertex::color	graph.h	/^    vcolor color;$/;"	m	struct:_gvertex	access:public
+_gvertex::edgelist	graph.h	/^    gedge edgelist;$/;"	m	struct:_gvertex	access:public
+_gvertex::finishTime	graph.h	/^    int finishTime;$/;"	m	struct:_gvertex	access:public
+_gvertex::startTime	graph.h	/^    int startTime;$/;"	m	struct:_gvertex	access:public
+_gvertex::value	graph.h	/^    int value;$/;"	m	struct:_gvertex	access:public
+_tnode	graph.h	/^typedef struct _tnode{$/;"	s
+_tnode::lc	graph.h	/^    struct _node * lc;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+_tnode::parent	graph.h	/^    struct _node * parent;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+_tnode::rc	graph.h	/^    struct _node * rc;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+_tnode::value	graph.h	/^    int value;$/;"	m	struct:_tnode	access:public
+bfs	graph.c	/^int bfs( graph g  );$/;"	p	file:	signature:( graph g )
+bfs	graph.h	/^int bfs( graph g  );$/;"	p	signature:( graph g )
+color	graph.h	/^    vcolor color;$/;"	m	struct:_gvertex	access:public
+dfs	graph.c	/^int dfs( graph g  );$/;"	p	file:	signature:( graph g )
+dfs	graph.h	/^int dfs( graph g  );$/;"	p	signature:( graph g )
+edgelist	graph.h	/^    gedge edgelist;$/;"	m	struct:_gvertex	access:public
+finishTime	graph.h	/^    int finishTime;$/;"	m	struct:_gvertex	access:public
+gedge	graph.h	/^}*gedge;$/;"	t	typeref:struct:_gedge
+graph	graph.h	/^}*graph;$/;"	t	typeref:struct:_graph
+gsize	graph.h	/^    int gsize;$/;"	m	struct:_graph	access:public
+gvetex	graph.h	/^}*gvetex;$/;"	t	typeref:struct:_gvertex
+height	graph.h	/^    int height;$/;"	m	struct:_Matrix	access:public
+insertNode	graph.c	/^int insertNode(  );$/;"	p	file:
+insertNode	graph.h	/^int insertNode(  );$/;"	p	signature:( )
+lc	graph.h	/^    struct _node * lc;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+next	graph.h	/^    struct _gedge * next;$/;"	m	struct:_gedge	typeref:struct:_gedge::_gedge	access:public
+objs	makefile	/^objs=$(patsubst %.c,%.o,$(src))$/;"	m
+parent	graph.h	/^    struct _node * parent;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+rc	graph.h	/^    struct _node * rc;$/;"	m	struct:_tnode	typeref:struct:_tnode::_node	access:public
+readGraph	graph.c	/^int readGraph(Matrix mt){$/;"	f	signature:(Matrix mt)
+readGraph	graph.h	/^int readGraph(Matrix mt);$/;"	p	signature:(Matrix mt)
+src	makefile	/^src=$(wildcard *.c)$/;"	m
+startTime	graph.h	/^    int startTime;$/;"	m	struct:_gvertex	access:public
+tnode	graph.h	/^}*tnode;$/;"	t	typeref:struct:_tnode
+value	graph.h	/^    int value;$/;"	m	struct:_gvertex	access:public
+value	graph.h	/^    int value;$/;"	m	struct:_tnode	access:public
+vcolor	graph.h	/^enum vcolor{$/;"	g
+vec	graph.h	/^    int ** vec;$/;"	m	struct:_Matrix	access:public
+vlist	graph.h	/^    gvetex vlist; $/;"	m	struct:_graph	access:public
+weight	graph.h	/^    int weight;$/;"	m	struct:_gedge	access:public
+width	graph.h	/^    int width;$/;"	m	struct:_Matrix	access:public
